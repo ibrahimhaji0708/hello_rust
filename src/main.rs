@@ -21,7 +21,7 @@ pub fn spawn_player(
     commands.spawn((
         SpriteBundle {
             transform: Transform::from_xyz(window.width() / 2.0, window.height() / 2.0, 0.0),
-            texture: asset_server.load("sprites/blue_ball_large.png"),
+            texture: asset_server.load("sprites/ball_blue_large.png"),
             ..default()
         },
         Player {},
